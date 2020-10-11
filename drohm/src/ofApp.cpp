@@ -340,8 +340,12 @@ void ofApp::draw() {
  
     knobA.draw(100,370,.2);
     knobB.draw(200,370,.2);
+    ofSetColor(0);
+    ofDrawBitmapString("vol", 140, 390);
     knobC.draw(300,370,1000);
     knobD.draw(400,370,1000);
+    ofSetColor(0);
+    ofDrawBitmapString("delay", 330, 390);
     
     
     sliderA.xPos = 40;
